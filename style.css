@@ -41,7 +41,26 @@ button {
   .top_sub-content {
     background: #241381;
     flex-basis: 40%;
-
+    display:flex;
+    flex-direction: column;
+    
+    nav{
+      color: white;
+      
+      ul{
+        justify-content: flex-end;
+        display: flex;
+        
+        li{
+          opacity: 0.75;
+          font-size: 1.1rem;
+          padding: 2rem;
+          
+          
+        }
+      }
+    }
+    
     img {
       max-width: 100%;
     }
