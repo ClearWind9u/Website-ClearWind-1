@@ -2,6 +2,8 @@ body {
   font-family: "Poppins";
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction:column;
 }
 button {
   background: #442eba;
@@ -56,7 +58,10 @@ button {
           font-size: 1.1rem;
           padding: 2rem;
           
-          
+          6:hover{
+            opacity:1;
+            cursor:pointer;
+          }
         }
       }
     }
@@ -65,4 +70,52 @@ button {
       max-width: 100%;
     }
   }
+}
+footer {
+  background:#241381;
+  flex:1;
+  color:white;
+  display:flex;
+  
+  .footer_info {
+    flex-basis:50%;
+    padding: 5rem 10rem;
+    
+    .logo {
+      border: 1px solid white;
+      background: white;
+      border-radius: 50%;
+      mardin-bottom: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 4rem;
+        font-weight: 700;
+      }
+
+    p {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+  }
+  
+  .footer_form {
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0;
+    
+    .form-control {
+      display:flex;
+      
+      input{
+        padding-left: 1rem;
+        width: 25rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  
 }
