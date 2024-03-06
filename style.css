@@ -46,7 +46,7 @@ button {
 
   .top_sub-content {
     background: #241381;
-    flex-basis: 50%;
+    flex-basis: 40%;
     display: flex;
     flex-direction: column;
 
@@ -59,8 +59,8 @@ button {
 
         li {
           opacity: 0.75;
-          font-size: 1.2rem;
-          padding: 2rem;
+          font-size: 1.1rem;
+          padding: 1rem 2rem;
 
           &:hover {
             opacity: 1;
@@ -85,9 +85,9 @@ footer {
     flex-basis: 50%;
     padding: 5rem 7rem;
 
-    logo {
+    .logo {
       border: 1px solid white;
-      background: white;
+      /*background: white;
       border-radius: 50%;
       margin-bottom: 1.5rem;
     }
